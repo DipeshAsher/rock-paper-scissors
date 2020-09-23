@@ -40,11 +40,11 @@ function handleUserResponse (response) {
             console.log("++YOU WIN++");
         }
         else if (lowerCaseString == "paper" && computerChoice == "scissors") {
-            console.log("++YOU LOSE++");
+            console.log("--YOU LOSE--");
         }
         // Checking scissors
         else if (lowerCaseString == "scissors" && computerChoice == "rock") {
-            console.log("++YOU LOSE++");
+            console.log("--YOU LOSE--");
         }
         else if (lowerCaseString == "scissors" && computerChoice == "paper") {
             console.log("++YOU WIN++");
